@@ -23,7 +23,7 @@
 
 html, body{
 
-background-color: rgb(141, 137, 137);
+background-color:black;
 min-height:100vh;
 font-family: var(--font_1);
 
@@ -38,7 +38,7 @@ header{
 
 header > h1{
 
-  padding-top: 50px;
+  padding-top: 20px;
   font-variant: small-caps;
   font-family: var(--font_2);
   font-size:  2em;
@@ -82,10 +82,11 @@ font-size: 5vw;
 
 .imagen >p{
 
-background-color: rgb(80, 79, 79);
+background-color: rgba(43, 42, 42, 0.733);
  width:400px;
 display:inline-block;
 padding:3.5px;
+text-shadow: 1px 1px 0px rgba(5, 5, 5, 0.514);
 
 }
 
@@ -97,9 +98,38 @@ section.Normal{
 section.imagen{
     background-color: rgb(73, 73, 73);
     color: White;
+box-shadow: insert 6px 6px 13px 0px rgba(8, 8, 8, 0.781) ;
+
+background-size:cover;
+
+background-attachment:fixed;
+
 }
 
+section > p{
 
+
+padding-bottom: 2em;
+
+}
+
+section#Fernando_1{
+
+
+    background-image: url(../imagens/background001.jpg);
+    background-position:  right center;
+
+
+
+}
+
+section#Fernando_2{
+
+background-image: url(../imagens/background002.jpg);
+
+
+
+}
 
 footer{
     background-color: black;
